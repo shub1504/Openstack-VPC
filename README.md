@@ -24,3 +24,16 @@ OpenStack is an open-source cloud computing platform that enables the deployment
 **Step 3:** Deploy the OpenStack cloud using the cluster bootstrap command
           
           sunbeam cluster bootstrap --accept-defaults
+
+**Step 4:** configure it using the following command 
+
+          sunbeam configure --accept-defaults --openrc demo-openrc
+
+**Step 5:** Launch a VM 
+
+          sunbeam launch ubuntu --name test
+
+**Step 6:** Connect to the VM over SSH using the provided command.
+
+          Launching an OpenStack instance ...
+Access instance with `ssh -i /home/ubuntu/.config/openstack/sunbeam ubuntu@10.20.20.200`
