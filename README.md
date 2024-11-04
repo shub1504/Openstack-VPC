@@ -14,10 +14,13 @@ OpenStack is an open-source cloud computing platform that enables the deployment
 
 # Install OpenStack 
 **Step 1:** Begin by installing the openstack snap
+           
            sudo snap install openstack --channel 2024.1/beta
 
 **Step 2:** Use the following code for preparing the machine
+          
           sunbeam prepare-node-script
 
 **Step 3:** Deploy the OpenStack cloud using the cluster bootstrap command
+          
           sunbeam cluster bootstrap --accept-defaults
