@@ -36,6 +36,9 @@ OpenStack is an open-source cloud computing platform that enables the deployment
 
           sunbeam configure --accept-defaults --openrc demo-openrc
 
+![WhatsApp Image 2024-11-04 at 20 41 15_183fa2f1](https://github.com/user-attachments/assets/70db5d97-fa1a-41f2-bfa1-5d1a92d93e4b)
+
+
 **Step 5:** Launch a VM 
 
           sunbeam launch ubuntu --name test
@@ -44,3 +47,6 @@ OpenStack is an open-source cloud computing platform that enables the deployment
 
           Launching an OpenStack instance ...
           Access instance with `ssh -i /home/ubuntu/.config/openstack/sunbeam ubuntu@10.20.20.200`
+
+![WhatsApp Image 2024-11-04 at 20 41 14_6e2cdf48](https://github.com/user-attachments/assets/8b32c71e-831d-4660-9fb3-782c09fb43e0)
+
