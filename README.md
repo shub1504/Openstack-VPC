@@ -36,4 +36,4 @@ OpenStack is an open-source cloud computing platform that enables the deployment
 **Step 6:** Connect to the VM over SSH using the provided command.
 
           Launching an OpenStack instance ...
-Access instance with `ssh -i /home/ubuntu/.config/openstack/sunbeam ubuntu@10.20.20.200`
+          Access instance with `ssh -i /home/ubuntu/.config/openstack/sunbeam ubuntu@10.20.20.200`
