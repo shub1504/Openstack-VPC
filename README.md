@@ -21,6 +21,10 @@ OpenStack is an open-source cloud computing platform that enables the deployment
           
           sunbeam prepare-node-script
 
+
+![WhatsApp Image 2024-11-04 at 20 41 15_053f38d9](https://github.com/user-attachments/assets/7f859ee1-7f12-4950-b795-92eb6a91ff6b)
+
+
 **Step 3:** Deploy the OpenStack cloud using the cluster bootstrap command
           
           sunbeam cluster bootstrap --accept-defaults
