@@ -64,3 +64,34 @@ A VPC is essential for enhancing security, control, and flexibility in your clou
 
 **3. Disaster Recovery**
 
+# How to set up your VPC 
+**STEP 1:**  To set up your VPC firstly login your AWS account and navigate to VPC Dashboard.
+**STEP 2:**  Create your VPC and define your configuration
+**STEP 3:**  Create subnets 
+
+To create a subnet:
+
+   * In the VPC Dashboard, click on Subnets in the left sidebar.
+   * Click Create subnet.
+   * Choose the VPC you just created.
+   * Specify a subnet name, Availability Zone (you can select different AZs to ensure high availability), and CIDR block for the subnet (e.g., 10.0.1.0/24 for a subnet in the range 10.0.0.0/16).
+
+**STEP 4:** Set Up Route Tables
+
+1. After creating subnets, you need to configure the route table for your VPC. This defines how traffic is routed within the VPC and to the internet.
+
+2. Go to Route Tables in the VPC Dashboard.
+
+3. Click Create Route Table, name it (e.g., "Public Route Table"), and associate it with your VPC.
+
+Add Routes:
+
+   * If you want a public subnet to access the internet, you’ll need to add a route that points to an Internet Gateway (more on that in the next step).
+
+**STEP 5:** Attach an Internet Gateway (For Public Subnets)
+
+If you want to allow instances in your public subnets to access the internet, you need to create and attach an Internet Gateway (IGW).
+
+   1. In the VPC Dashboard, click Internet Gateways in the left sidebar.
+   2. Click Create Internet Gateway and give it a name.
+   3. Once created, click Attach to VPC and select the VPC you created earlier.
