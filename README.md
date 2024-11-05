@@ -66,7 +66,9 @@ A VPC is essential for enhancing security, control, and flexibility in your clou
 
 # How to set up your VPC 
 **STEP 1:**  To set up your VPC firstly login your AWS account and navigate to VPC Dashboard.
+
 **STEP 2:**  Create your VPC and define your configuration
+
 **STEP 3:**  Create subnets 
 
 To create a subnet:
